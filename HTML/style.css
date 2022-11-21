@@ -1,6 +1,43 @@
+@font-face {
+  font-family: "Disconnected";
+  src: url("Disconnected-Regular.otf") format(opentype);
+}
+@font-face {
+  font-family: "Typewriter";
+  src: url("SmallTypeWritingMedium.ttf") format(truetype);
+}
+p {
+  color: whitesmoke;
+}
 .moretti{
     width: 325px;
     position: relative;
     left: 800px;
     display: block;
+}
+body{
+  background-image: url(fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#logo{
+  width: 275px;
+}
+.cabeçalho li{
+    display: inline;
+    position: relative;
+    left: 400px;
+    top: -80px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.verdadeira-arte{
+  font-size: 25px;
+  font-family: "Typewriter";
+  position: relative;
+  top: -60px;
+  display: block;
+  margin-right: -20px;
 }
