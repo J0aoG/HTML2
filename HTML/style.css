@@ -10,9 +10,9 @@ p {
   color: whitesmoke;
 }
 .moretti{
-    width: 325px;
+    width: 275px;
     position: relative;
-    left: 800px;
+    left: 900px;
     display: block;
 }
 body{
@@ -34,10 +34,29 @@ body{
     color: whitesmoke;
 }
 .verdadeira-arte{
-  font-size: 25px;
+  font-size: 23px;
   font-family: "Typewriter";
   position: relative;
-  top: -60px;
-  display: block;
-  margin-right: -20px;
+  top: -375px;
+  left: 100px;
+  margin-right: 1450px;
+  text-overflow: clip;
+}
+.verdadeira-arte2{
+  font-size: 23px;
+  font-family: "Typewriter";
+  position: relative;
+  top: -375px;
+  left: 100px;
+  margin-right: 1450px;
+  text-overflow: clip;
+}
+.info{
+  font-size: 19px;
+  font-family: "Typewriter";
+  position: relative;
+  top: -375px;
+  left: 100px;
+  margin-right: 1200px;
+  text-overflow: clip;
 }
